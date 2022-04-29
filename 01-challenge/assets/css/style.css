@@ -41,7 +41,7 @@ nav {
     font-size: 20px;
 }
 
-header nav ul {
+ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -49,10 +49,11 @@ header nav ul {
     flex-direction: row;
 }
 
-header nav ul li {
+li {
    
     margin-left: 25px;
 }
+
 
 a {
     color: #ffffff;
@@ -62,6 +63,19 @@ a {
 p {
     font-size: 16px;
 }
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Class Selectors */
 
 .hero {
     height: 800px;
@@ -201,13 +215,3 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
